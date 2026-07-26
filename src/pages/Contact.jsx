@@ -16,7 +16,7 @@ export default function Contact() {
     document.title = "Contact Us — Eliciton Innovations";
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.setAttribute('content', 'Get in touch with the Eliciton laboratory and research team in Bengaluru for diagnostics assay development inquiries.');
+      metaDesc.setAttribute('content', 'Get in touch with the Eliciton laboratory and research team in Hyderabad for diagnostics assay development inquiries.');
     }
   }, []);
 
@@ -178,10 +178,12 @@ export default function Contact() {
             </div>
 
             <div className="contact-map-side">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.973499092892!2d77.58550787593125!3d12.973562614838634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16723223ba99%3A0xc3c545de2b2a632a!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1708892400000!5m2!1sen!2sin" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Eliciton Innovations Office Location Map"></iframe>
+              <iframe src="https://maps.google.com/maps?q=Plot+No.+M+42/1,+Medical+Devices+Park,+Sultanpur,+Near+Patancheru,+Medak,+Hyderabad,+Telangana,+502319&t=&z=13&ie=UTF8&iwloc=&output=embed" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Eliciton Innovations Office Location Map"></iframe>
               <div className="contact-map-overlay">
                 <b>Eliciton Innovations Pvt. Ltd.</b>
-                <span>Registered Office: Bengaluru, Karnataka, India<br/>Assay Research &amp; Synthesis Laboratory</span>
+                <a href="https://maps.app.goo.gl/yL1CbeJbEtCDTgYPA" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                  <span>Plot No. M 42/1, Medical Devices Park, Sultanpur,<br/>Near Patancheru, Medak, Hyderabad, Telangana, 502319.</span>
+                </a>
               </div>
             </div>
 
