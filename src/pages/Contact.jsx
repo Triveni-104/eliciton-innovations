@@ -95,12 +95,12 @@ export default function Contact() {
       <section className="section-pad contact">
         <div className="wrap">
           <div className="contact-shell reveal">
-            
+
             <div className="contact-form-side">
               <div className="eyebrow">Get in Touch</div>
               <h2>Connect with our team</h2>
               <p>Whether you require assay validation reference materials, custom monoclonal antibody pairs, or have inquiries regarding Brucellosis surveillance programs, we look forward to hearing from you.</p>
-              
+
               {submitStatus === 'success' && (
                 <div style={{ padding: '16px', background: 'rgba(141,198,191,0.15)', color: '#4a9388', borderRadius: '12px', fontSize: '14.5px', marginBottom: '24px', fontWeight: '600' }}>
                   Message sent successfully! We will get back to you shortly.
@@ -115,42 +115,42 @@ export default function Contact() {
               <form onSubmit={handleSubmit} className="form-grid">
                 <div className="field">
                   <label htmlFor="cName">Your Name</label>
-                  <input 
-                    type="text" 
-                    id="cName" 
-                    placeholder="Dr. Sarah Jenkins" 
-                    required 
-                    value={name} 
+                  <input
+                    type="text"
+                    id="cName"
+                    placeholder="Dr. Sarah Jenkins"
+                    required
+                    value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
                 </div>
                 <div className="field">
                   <label htmlFor="cEmail">Email Address</label>
-                  <input 
-                    type="email" 
-                    id="cEmail" 
-                    placeholder="s.jenkins@veterinary.org" 
-                    required 
-                    value={email} 
+                  <input
+                    type="email"
+                    id="cEmail"
+                    placeholder="s.jenkins@veterinary.org"
+                    required
+                    value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 <div className="field full">
                   <label htmlFor="cSubject">Subject</label>
-                  <input 
-                    type="text" 
-                    id="cSubject" 
-                    placeholder="Enter subject (optional)" 
-                    value={subject} 
+                  <input
+                    type="text"
+                    id="cSubject"
+                    placeholder="Enter subject (optional)"
+                    value={subject}
                     onChange={(e) => setSubject(e.target.value)}
                   />
                 </div>
                 <div className="field full">
                   <label htmlFor="cMessage">Your Message</label>
-                  <textarea 
-                    id="cMessage" 
-                    placeholder="Please describe your specific diagnostic or research requirements..." 
-                    value={message} 
+                  <textarea
+                    id="cMessage"
+                    placeholder="Please describe your specific diagnostic or research requirements..."
+                    value={message}
                     onChange={(e) => {
                       setMessage(e.target.value);
                       if (e.target.value.trim()) {
@@ -169,7 +169,7 @@ export default function Contact() {
                     {isSubmitting ? 'Sending...' : 'Send Message'}
                     {!isSubmitting && (
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2">
-                        <path d="M5 12h14M13 6l6 6-6 6"/>
+                        <path d="M5 12h14M13 6l6 6-6 6" />
                       </svg>
                     )}
                   </button>
@@ -182,7 +182,7 @@ export default function Contact() {
               <div className="contact-map-overlay">
                 <b>Eliciton Innovations Pvt. Ltd.</b>
                 <a href="https://maps.app.goo.gl/yL1CbeJbEtCDTgYPA" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
-                  <span>Plot No. M 42/1, Medical Devices Park, Sultanpur,<br/>Near Patancheru, Medak, Hyderabad, Telangana, 502319.</span>
+                  <span>Plot No. M 42/1, Medical Devices Park, Sultanpur,<br />Near Patancheru, Hyderabad, Telangana, 502319.</span>
                 </a>
               </div>
             </div>
