@@ -5,7 +5,7 @@ import SignalDivider from '../components/SignalDivider';
 
 export default function Microbiology() {
   useEffect(() => {
-    document.title = "Veterinary Microbiology — Eliciton Innovations";
+    document.title = "Microbiology — Eliciton Innovations";
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
       metaDesc.setAttribute('content', 'Research and innovation in veterinary microbiology, bacterial pathogenesis, antimicrobial solutions, and applied biotechnology.');
@@ -16,8 +16,8 @@ export default function Microbiology() {
     <>
       <Hero
         eyebrow="Microbiology"
-        title="VETERINARY MICROBIOLOGY"
-        subtitle="Deep bench strength in bacterial pathogenesis and applied biotech"
+        title="MICROBIOLOGY"
+        subtitle="Deep bench strength in bacterial pathogenesis"
         compact={true}
       />
 
@@ -30,7 +30,7 @@ export default function Microbiology() {
             <h2>Pathogen expertise running deep</h2>
             <p>Researching host-pathogen interactions to develop diagnostic targets, custom reagents and solutions for disease control.</p>
           </div>
-          
+
           <div className="domains-grid">
             <div className="domain-card card-a reveal" style={{ minHeight: 'auto' }}>
               <div className="domain-num">DIAGNOSTIC TARGETS</div>
@@ -47,7 +47,7 @@ export default function Microbiology() {
 
           <div style={{ marginTop: '64px', textAlign: 'center' }} className="reveal">
             <Link to="/contact" className="btn btn-primary">Partner With Our Lab
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
             </Link>
           </div>
         </div>
