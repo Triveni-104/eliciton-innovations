@@ -17,7 +17,7 @@ export default function Home() {
       <Hero
         eyebrow="Innovation Grows Where Biology Meets Engineering"
         title={<>ELICITON <em>INNOVATIONS</em></>}
-        subtitle="Advancing Animal Health Through Microbiology & In Vitro Diagnostics"
+        subtitle={<>Advancing Animal Health Through Microbiology & <i>In Vitro Diagnostics</i></>}
         description="Developing veterinary diagnostics, microbiology solutions, vaccines, therapeutics and next-generation in vitro diagnostic technologies that empower laboratories, researchers, veterinarians, governments and the livestock industry."
         primaryCtaText="Explore Solutions"
         primaryCtaLink="/products"
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
 
             <div className="domain-card card-b reveal" id="diagnostics">
-              <div className="domain-num">02 / IN VITRO DIAGNOSTICS</div>
+              <div className="domain-num">02 / <i>IN VITRO DIAGNOSTICS</i></div>
               <div className="domain-illustration">
                 <svg viewBox="0 0 400 230" fill="none">
                   <g opacity=".85">
@@ -82,7 +82,7 @@ export default function Home() {
                   <circle cx="70" cy="42" r="2" fill="#FCBC66" opacity=".7"/>
                 </svg>
               </div>
-              <h3>In&nbsp;Vitro Diagnostics</h3>
+              <h3><i>In&nbsp;Vitro Diagnostics</i></h3>
               <p>Development of ELISA kits, lateral flow assays, molecular diagnostics, DIVA technologies and rapid veterinary diagnostic platforms.</p>
               <Link to="/diagnostics" className="domain-link">Explore Diagnostics
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>

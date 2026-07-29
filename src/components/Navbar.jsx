@@ -92,7 +92,7 @@ export default function Navbar() {
         <NavLink to="/" end onClick={(e) => handleLinkClick(e, '/')}>Home</NavLink>
         <NavLink to="/about" onClick={(e) => handleLinkClick(e, '/about')}>About</NavLink>
         <NavLink to="/microbiology" onClick={(e) => handleLinkClick(e, '/microbiology')}>Microbiology</NavLink>
-        <NavLink to="/diagnostics" onClick={(e) => handleLinkClick(e, '/diagnostics')}>In Vitro Diagnostics</NavLink>
+        <NavLink to="/diagnostics" onClick={(e) => handleLinkClick(e, '/diagnostics')}><i>In Vitro Diagnostics</i></NavLink>
         <NavLink to="/research" onClick={(e) => handleLinkClick(e, '/research')}>Research</NavLink>
         <NavLink to="/products" onClick={(e) => handleLinkClick(e, '/products')}>Products</NavLink>
         <NavLink to="/news" onClick={(e) => handleLinkClick(e, '/news')}>News</NavLink>

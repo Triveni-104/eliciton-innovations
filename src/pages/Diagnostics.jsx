@@ -15,8 +15,8 @@ export default function Diagnostics() {
   return (
     <>
       <Hero
-        eyebrow="In Vitro Diagnostics"
-        title="IN VITRO DIAGNOSTICS"
+        eyebrow={<i>In Vitro Diagnostics</i>}
+        title={<i>IN VITRO DIAGNOSTICS</i>}
         subtitle="Veterinary Diagnostics Purpose-built for animal health"
         compact={true}
       />
@@ -26,7 +26,7 @@ export default function Diagnostics() {
       <section className="section-pad">
         <div className="wrap">
           <div className="section-head reveal">
-            <div className="eyebrow">In Vitro Diagnostics</div>
+            <div className="eyebrow"><i>In Vitro Diagnostics</i></div>
             <h2>Purpose-built for animal health</h2>
             <p>Veterinary diagnostics require speed without sacrifice. Here is how our framework delivers confidence under field conditions.</p>
           </div>

@@ -25,6 +25,13 @@ export default function Hero({
           <p className="hero-sub">{subtitle}</p>
           {!compact && (
             <>
+              <div className="hero-badge">
+                <div className="dot"></div>
+                <div>
+                  <b>Eliciton Innovations</b>
+                  <span>From academia projects to commercial product</span>
+                </div>
+              </div>
               {description && <p className="hero-desc">{description}</p>}
               <div className="hero-actions">
                 {primaryCtaText && primaryCtaLink && (
