@@ -46,7 +46,7 @@ export default function Navbar() {
               src="/logo.png" 
               alt="Eliciton Innovations Logo" 
               className={isScrolled ? '' : 'logo-white'}
-              style={{ height: '38px', width: 'auto', objectFit: 'contain', display: 'block', borderRadius: '4px' }} 
+              style={{ height: '52px', width: 'auto', objectFit: 'contain', display: 'block', borderRadius: '4px' }} 
             />
           </Link>
           <nav className="links">

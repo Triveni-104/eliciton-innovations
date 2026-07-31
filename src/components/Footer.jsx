@@ -20,7 +20,7 @@ export default function Footer() {
                 src="/logo.png" 
                 alt="Eliciton Innovations Logo" 
                 className="logo-white"
-                style={{ height: '38px', width: 'auto', objectFit: 'contain', display: 'block', borderRadius: '4px' }} 
+                style={{ height: '52px', width: 'auto', objectFit: 'contain', display: 'block', borderRadius: '4px' }} 
               />
             </div>
             <p>Innovation grows where biology meets engineering. Veterinary diagnostics, microbiology and therapeutics for the livestock industry.</p>
