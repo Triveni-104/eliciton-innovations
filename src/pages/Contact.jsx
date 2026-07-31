@@ -178,10 +178,10 @@ export default function Contact() {
             </div>
 
             <div className="contact-map-side">
-              <iframe src="https://maps.google.com/maps?q=Plot+No.+M+42/1,+Medical+Devices+Park,+Sultanpur,+Near+Patancheru,+Medak,+Hyderabad,+Telangana,+502319&t=&z=13&ie=UTF8&iwloc=&output=embed" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Eliciton Innovations Office Location Map"></iframe>
+              <iframe src="https://maps.google.com/maps?q=Eliciton+Innovations+Private+Limited&t=&z=13&ie=UTF8&iwloc=&output=embed" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Eliciton Innovations Office Location Map"></iframe>
               <div className="contact-map-overlay">
-                <b>Eliciton Innovations Pvt. Ltd.</b>
-                <a href="https://maps.app.goo.gl/yL1CbeJbEtCDTgYPA" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                <b>Eliciton Innovations Private Limited</b>
+                <a href="https://maps.app.goo.gl/q8dJMVYZVpxz9G6B7" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
                   <span>Plot No. M 42/1, Medical Devices Park, Sultanpur,<br />Near Patancheru, Hyderabad, Telangana, 502319.</span>
                 </a>
               </div>
