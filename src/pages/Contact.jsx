@@ -84,7 +84,7 @@ export default function Contact() {
     <>
       <Hero
         eyebrow="Contact"
-        title="GET IN TOUCH"
+        title="Get in touch"
         subtitle="Let's talk about your diagnostic challenge"
         compact={true}
       />

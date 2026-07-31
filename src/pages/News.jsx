@@ -15,7 +15,7 @@ export default function News() {
     <>
       <Hero
         eyebrow="News &amp; Media"
-        title="LATEST NEWS"
+        title="Latest News"
         subtitle="From the lab and the field"
         compact={true}
       />

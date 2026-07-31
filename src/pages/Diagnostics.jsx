@@ -16,7 +16,7 @@ export default function Diagnostics() {
     <>
       <Hero
         eyebrow={<i>In Vitro Diagnostics</i>}
-        title={<i>IN VITRO DIAGNOSTICS</i>}
+        title={<i>In Vitro Diagnostics</i>}
         subtitle="Veterinary Diagnostics Purpose-built for animal health"
         compact={true}
       />
@@ -33,17 +33,17 @@ export default function Diagnostics() {
 
           <div className="solutions-grid reveal-stagger">
             <div className="solution-card s1">
-              <div className="solution-icon"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.7"><path d="M9 3h6M10 3v5.5L4.5 18a2 2 0 001.7 3h11.6a2 2 0 001.7-3L14 8.5V3M7 15h10" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
+              <div className="solution-icon"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.7"><path d="M9 3h6M10 3v5.5L4.5 18a2 2 0 001.7 3h11.6a2 2 0 001.7-3L14 8.5V3M7 15h10" strokeLinecap="round" strokeLinejoin="round" /></svg></div>
               <h3>ELISA Development</h3>
               <p>Developing solid-phase colorimetric assays optimized for standard 96-well format layouts, ready for optical detection.</p>
             </div>
             <div className="solution-card s2">
-              <div className="solution-icon"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.7"><path d="M12 2v6M12 22v-4M4.9 4.9l3.5 3.5M15.6 15.6l3.5 3.5M2 12h6M16 12h6M4.9 19.1l3.5-3.5M15.6 8.4l3.5-3.5" strokeLinecap="round"/></svg></div>
+              <div className="solution-icon"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.7"><path d="M12 2v6M12 22v-4M4.9 4.9l3.5 3.5M15.6 15.6l3.5 3.5M2 12h6M16 12h6M4.9 19.1l3.5-3.5M15.6 8.4l3.5-3.5" strokeLinecap="round" /></svg></div>
               <h3>Lateral Flow Strip Design</h3>
               <p>Structuring quick colloidal gold and fluorescence-dyed diagnostic strips for rapid point-of-need livestock detection.</p>
             </div>
             <div className="solution-card s3">
-              <div className="solution-icon"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.7"><path d="M8 2l1.5 4M16 2l-1.5 4M12 6v4M7 10h10l-1 4a4 4 0 01-8 0l-1-4z" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
+              <div className="solution-icon"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.7"><path d="M8 2l1.5 4M16 2l-1.5 4M12 6v4M7 10h10l-1 4a4 4 0 01-8 0l-1-4z" strokeLinecap="round" strokeLinejoin="round" /></svg></div>
               <h3>Platform Optimization</h3>
               <p>Cooperating with engineering stakeholders to design compatible cartridges, filters, readers, and user applications.</p>
             </div>
@@ -51,7 +51,7 @@ export default function Diagnostics() {
 
           <div style={{ marginTop: '64px', textAlign: 'center' }} className="reveal">
             <Link to="/contact" className="btn btn-primary">Request Diagnostic Assay Development
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
             </Link>
           </div>
         </div>

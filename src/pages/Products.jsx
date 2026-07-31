@@ -29,7 +29,7 @@ export default function Products() {
     <>
       <Hero
         eyebrow="Products &amp; Technologies"
-        title="FEATURED TECHNOLOGIES"
+        title="Featured Technologies"
         subtitle="The engineering behind every result"
         compact={true}
       />

@@ -15,7 +15,7 @@ export default function Research() {
     <>
       <Hero
         eyebrow="Research &amp; Innovation"
-        title="RESEARCH &amp; EVIDENCE"
+        title="Research &amp; Evidence"
         subtitle="A pipeline built one validated stage at a time"
         compact={true}
       />
@@ -26,24 +26,24 @@ export default function Research() {
       <section className="section-pad research">
         <div className="dna-bg">
           <svg viewBox="0 0 1440 800" fill="none" preserveAspectRatio="none">
-            <path className="dna-strand" d="M100,50 Q150,150 100,250 T100,450 T100,650" stroke="rgba(141,198,191,0.06)" strokeWidth="2.5" fill="none"/>
-            <path className="dna-strand" d="M150,50 Q100,150 150,250 T150,450 T150,650" stroke="rgba(252,188,102,0.05)" strokeWidth="1.5" fill="none"/>
-            <path className="dna-strand" d="M1300,100 Q1350,250 1300,400 T1300,700" stroke="rgba(249,123,79,0.06)" strokeWidth="2" fill="none"/>
-            <path className="dna-strand" d="M1350,100 Q1300,250 1350,400 T1350,700" stroke="rgba(141,198,191,0.05)" strokeWidth="1.5" fill="none"/>
+            <path className="dna-strand" d="M100,50 Q150,150 100,250 T100,450 T100,650" stroke="rgba(141,198,191,0.06)" strokeWidth="2.5" fill="none" />
+            <path className="dna-strand" d="M150,50 Q100,150 150,250 T150,450 T150,650" stroke="rgba(252,188,102,0.05)" strokeWidth="1.5" fill="none" />
+            <path className="dna-strand" d="M1300,100 Q1350,250 1300,400 T1300,700" stroke="rgba(249,123,79,0.06)" strokeWidth="2" fill="none" />
+            <path className="dna-strand" d="M1350,100 Q1300,250 1350,400 T1350,700" stroke="rgba(141,198,191,0.05)" strokeWidth="1.5" fill="none" />
           </svg>
         </div>
-        
+
         <div className="wrap">
           <div className="section-head reveal">
             <div className="eyebrow">Our Research</div>
             <h2>A pipeline built one validated stage at a time</h2>
             <p>From first isolate to field-deployed platform — every stage carries its own evidence bar before it moves forward.</p>
           </div>
-          
+
           <div className="timeline">
             <div className="timeline-line"></div>
             <div className="timeline-track">
-              
+
               <div className="t-item active reveal">
                 <div className="t-dot"></div>
                 <h3>Pathogen Profiling <span className="t-tag">Current Phase</span></h3>
