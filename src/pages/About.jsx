@@ -131,8 +131,8 @@ export default function About() {
           <div className="stats-strip reveal-stagger" id="statsStrip">
             <StatItem targetValue={98.5} label="ELISA Assay R² Accuracy" />
             <StatItem targetValue={10} label="Zoonotic Pathogens Covered" />
-            <StatItem targetValue={15} suffix="m" label="Lateral Flow Run Time" />
-            <StatItem targetValue={15 + "," + 782} label="Validated Serum Samples" />
+            <StatItem targetValue={15} suffix="Minutes" label="Lateral Flow Run Time" />
+            <StatItem targetValue={15782} label="Validated Serum Samples" />
           </div>
         </div>
       </section>
