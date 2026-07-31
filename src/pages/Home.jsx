@@ -18,7 +18,7 @@ export default function Home() {
         eyebrow="Innovation Grows Where Biology Meets Engineering"
         title={<>ELICITON <em>INNOVATIONS</em></>}
         subtitle={<>Advancing Animal Health Through Microbiology & <i>In Vitro Diagnostics</i></>}
-        description="Developing veterinary diagnostics, microbiology solutions, vaccines, therapeutics and next-generation in vitro diagnostic technologies that empower laboratories, researchers, veterinarians, governments and the livestock industry."
+        description="Developing veterinary diagnostics, microbiology solutions, vaccines, therapeutics and next-generation in vitro diagnostic technologies that empower laboratories, researchers, veterinarians, governments and the livestock industry under One Health Programme."
         primaryCtaText="Explore Solutions"
         primaryCtaLink="/products"
         secondaryCtaText="Our Research"

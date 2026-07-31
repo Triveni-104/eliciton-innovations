@@ -16,7 +16,7 @@ export default function Microbiology() {
     <>
       <Hero
         eyebrow="Microbiology"
-        title="MICROBIOLOGY"
+        title="Microbiology"
         subtitle="Deep bench strength in bacterial pathogenesis"
         compact={true}
       />

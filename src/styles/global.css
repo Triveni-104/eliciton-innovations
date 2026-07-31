@@ -474,6 +474,11 @@ header.scrolled .menu-btn svg {
   color: var(--teal);
 }
 
+.hero.compact .hero-copy h1 {
+  font-size: clamp(2.4rem, 4.5vw, 4.4rem);
+  font-weight: 700;
+}
+
 .hero-sub {
   margin-top: 22px;
   font-size: clamp(1.1rem, 1.7vw, 1.45rem);

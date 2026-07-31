@@ -69,7 +69,7 @@ export default function About() {
     <>
       <Hero
         eyebrow="About Us"
-        title={<>ABOUT ELICITON <em>INNOVATIONS</em></>}
+        title={<>About Eliciton <em>Innovations</em></>}
         subtitle="Built for laboratories that can't afford to guess"
         compact={true}
       />

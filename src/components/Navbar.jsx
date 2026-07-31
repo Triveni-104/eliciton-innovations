@@ -50,14 +50,14 @@ export default function Navbar() {
             />
           </Link>
           <nav className="links">
-            <NavLink to="/" end onClick={(e) => handleLinkClick(e, '/')}>Home</NavLink>
-            <NavLink to="/about" onClick={(e) => handleLinkClick(e, '/about')}>About</NavLink>
-            <NavLink to="/microbiology" onClick={(e) => handleLinkClick(e, '/microbiology')}>Microbiology</NavLink>
-            <NavLink to="/diagnostics" onClick={(e) => handleLinkClick(e, '/diagnostics')}>IVD</NavLink>
-            <NavLink to="/research" onClick={(e) => handleLinkClick(e, '/research')}>Research</NavLink>
-            <NavLink to="/products" onClick={(e) => handleLinkClick(e, '/products')}>Products</NavLink>
-            <NavLink to="/news" onClick={(e) => handleLinkClick(e, '/news')}>News</NavLink>
-            <NavLink to="/contact" className="nav-cta" onClick={(e) => handleLinkClick(e, '/contact')}>Contact</NavLink>
+            <NavLink to="/" end onClick={(e) => handleLinkClick(e, '/')}>home</NavLink>
+            <NavLink to="/about" onClick={(e) => handleLinkClick(e, '/about')}>about</NavLink>
+            <NavLink to="/microbiology" onClick={(e) => handleLinkClick(e, '/microbiology')}>microbiology</NavLink>
+            <NavLink to="/diagnostics" onClick={(e) => handleLinkClick(e, '/diagnostics')}>ivd</NavLink>
+            <NavLink to="/research" onClick={(e) => handleLinkClick(e, '/research')}>research</NavLink>
+            <NavLink to="/products" onClick={(e) => handleLinkClick(e, '/products')}>products</NavLink>
+            <NavLink to="/news" onClick={(e) => handleLinkClick(e, '/news')}>news</NavLink>
+            <NavLink to="/contact" className="nav-cta" onClick={(e) => handleLinkClick(e, '/contact')}>contact</NavLink>
           </nav>
           <button 
             className="menu-btn" 
@@ -89,14 +89,14 @@ export default function Navbar() {
             <path d="M6 6l12 12M18 6L6 18" strokeWidth="1.8" strokeLinecap="round" />
           </svg>
         </button>
-        <NavLink to="/" end onClick={(e) => handleLinkClick(e, '/')}>Home</NavLink>
-        <NavLink to="/about" onClick={(e) => handleLinkClick(e, '/about')}>About</NavLink>
-        <NavLink to="/microbiology" onClick={(e) => handleLinkClick(e, '/microbiology')}>Microbiology</NavLink>
-        <NavLink to="/diagnostics" onClick={(e) => handleLinkClick(e, '/diagnostics')}><i>In Vitro Diagnostics</i></NavLink>
-        <NavLink to="/research" onClick={(e) => handleLinkClick(e, '/research')}>Research</NavLink>
-        <NavLink to="/products" onClick={(e) => handleLinkClick(e, '/products')}>Products</NavLink>
-        <NavLink to="/news" onClick={(e) => handleLinkClick(e, '/news')}>News</NavLink>
-        <NavLink to="/contact" className="btn btn-primary nav-cta" onClick={(e) => handleLinkClick(e, '/contact')}>Contact Us</NavLink>
+        <NavLink to="/" end onClick={(e) => handleLinkClick(e, '/')}>home</NavLink>
+        <NavLink to="/about" onClick={(e) => handleLinkClick(e, '/about')}>about</NavLink>
+        <NavLink to="/microbiology" onClick={(e) => handleLinkClick(e, '/microbiology')}>microbiology</NavLink>
+        <NavLink to="/diagnostics" onClick={(e) => handleLinkClick(e, '/diagnostics')}><i>inVitroDiagnostics</i></NavLink>
+        <NavLink to="/research" onClick={(e) => handleLinkClick(e, '/research')}>research</NavLink>
+        <NavLink to="/products" onClick={(e) => handleLinkClick(e, '/products')}>products</NavLink>
+        <NavLink to="/news" onClick={(e) => handleLinkClick(e, '/news')}>news</NavLink>
+        <NavLink to="/contact" className="btn btn-primary nav-cta" onClick={(e) => handleLinkClick(e, '/contact')}>contactUs</NavLink>
       </div>
     </>
   );
