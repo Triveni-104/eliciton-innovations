@@ -129,9 +129,9 @@ export default function About() {
 
           {/* ===== stats strip ===== */}
           <div className="stats-strip reveal-stagger" id="statsStrip">
-            <StatItem targetValue={98.5} label="ELISA Assay R² Accuracy" />
+            <StatItem targetValue={98.5} label="ELISA Assay Accuracy" />
             <StatItem targetValue={10} label="Zoonotic Pathogens Covered" />
-            <StatItem targetValue={15} suffix="Minutes" label="Lateral Flow Run Time" />
+            <StatItem targetValue={15} suffix=" Minutes" label="Lateral Flow Run Time" />
             <StatItem targetValue={15782} label="Validated Serum Samples" />
           </div>
         </div>

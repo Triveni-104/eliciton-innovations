@@ -46,45 +46,41 @@ export default function Products() {
             </div>
             <div className="tech-arrows">
               <button onClick={scrollPrev} aria-label="Previous technologies">
-                <svg viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5M12 19l-7-7 7-7" /></svg>
               </button>
               <button onClick={scrollNext} aria-label="Next technologies">
-                <svg viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
               </button>
             </div>
           </div>
-          
+
           <div className="tech-scroll reveal" ref={techScrollRef} id="techScroll">
-            
-            <div className="tech-card">
-              <div className="tech-num">01 / SUB-NANOMOLAR</div>
-              <h4>Monoclonal Pairing</h4>
-              <p>Developing high-affinity antibody pairs matching distinct epitopic regions on target veterinary pathogen isolates.</p>
-            </div>
 
             <div className="tech-card">
-              <div className="tech-num">02 / DIVA CAPABILITY</div>
-              <h4>DIVA Diagnostic Tests</h4>
-              <p>Differentiating Infected from Vaccinated Animals using marker antigen targeting configurations.</p>
-            </div>
-
-            <div className="tech-card">
-              <div className="tech-num">03 / STABILIZED</div>
-              <h4>Lyophilized Formats</h4>
-              <p>Dry-stable chemistry components enabling ambient-temperature transport for field diagnostic operations.</p>
-            </div>
-
-            <div className="tech-card">
-              <div className="tech-num">04 / COLORIMETRIC</div>
+              <div className="tech-num">01 / COLORIMETRIC</div>
               <h4>ELISA Plate Kits</h4>
               <p>Pre-coated, stable 96-well colorimetric antibody capture configurations matching industry plate readers.</p>
             </div>
 
             <div className="tech-card">
-              <div className="tech-num">05 / ULTRA-RAPID</div>
-              <h4>Colloidal Gold LFAs</h4>
-              <p>Point-of-need lateral flow diagnostic strips returning visually distinct line developments in minutes.</p>
+              <div className="tech-num">02 / SUB-NANOMOLAR</div>
+              <h4>Monoclonal Pairing</h4>
+              <p>Developing high-affinity antibody pairs matching distinct epitopic regions on target veterinary pathogen isolates.</p>
             </div>
+
+            <div className="tech-card">
+              <div className="tech-num">03 / DIVA CAPABILITY</div>
+              <h4>DIVA Diagnostic Tests</h4>
+              <p>Differentiating Infected from Vaccinated Animals using marker antigen targeting configurations.</p>
+            </div>
+
+            <div className="tech-card">
+              <div className="tech-num">04 / STABILIZED</div>
+              <h4>Lyophilized Formats</h4>
+              <p>Dry-stable chemistry components enabling ambient-temperature transport for field diagnostic operations.</p>
+            </div>
+
+
 
           </div>
         </div>
