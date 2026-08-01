@@ -33,16 +33,17 @@ export default function Research() {
           </svg>
         </div>
 
-        <div className="wrap">
-          <div className="section-head reveal">
-            <div className="eyebrow">Our Research</div>
-            <h2>A pipeline built one validated stage at a time</h2>
-            <p>From first isolate to field-deployed platform — every stage carries its own evidence bar before it moves forward.</p>
-          </div>
+        <div className="wrap research-grid">
+          <div className="research-left">
+            <div className="section-head reveal">
+              <div className="eyebrow">Our Research</div>
+              <h2>A pipeline built one validated stage at a time</h2>
+              <p>From first isolate to field-deployed platform — every stage carries its own evidence bar before it moves forward.</p>
+            </div>
 
-          <div className="timeline">
-            <div className="timeline-line"></div>
-            <div className="timeline-track">
+            <div className="timeline">
+              <div className="timeline-line"></div>
+              <div className="timeline-track">
 
               <div className="t-item active reveal">
                 <div className="t-dot"></div>
@@ -75,6 +76,11 @@ export default function Research() {
               </div>
 
             </div>
+          </div>
+          </div>
+
+          <div className="research-right reveal">
+            <img src="/TRL.png" alt="Technology Readiness Level" className="trl-image" />
           </div>
         </div>
       </section>
