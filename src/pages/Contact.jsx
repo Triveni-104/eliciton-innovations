@@ -175,6 +175,30 @@ export default function Contact() {
                   </button>
                 </div>
               </form>
+
+              <div className="contact-details-card" style={{ marginTop: '36px', padding: '24px', background: 'rgba(255, 255, 255, 0.06)', borderRadius: '18px', border: '1.5px solid rgba(255, 255, 255, 0.1)', color: '#fff' }}>
+                <h3 style={{ fontSize: '18px', marginBottom: '20px', fontFamily: 'Outfit, sans-serif', color: '#fff' }}>Direct Contact</h3>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+                    <div style={{ width: '42px', height: '42px', borderRadius: '50%', background: 'rgba(242, 194, 114, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--gold)', flexShrink: 0 }}>
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    </div>
+                    <div>
+                      <div style={{ fontSize: '12.5px', color: 'rgba(255,255,255,0.6)', marginBottom: '4px', fontWeight: '600', letterSpacing: '0.03em' }}>Phone</div>
+                      <a href="tel:+919492922500" style={{ color: '#fff', textDecoration: 'none', fontWeight: '500', fontSize: '15.5px', transition: 'color 0.2s' }} onMouseOver={(e) => e.target.style.color = 'var(--gold)'} onMouseOut={(e) => e.target.style.color = '#fff'}>+91 9492922500</a>
+                    </div>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+                    <div style={{ width: '42px', height: '42px', borderRadius: '50%', background: 'rgba(242, 194, 114, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--gold)', flexShrink: 0 }}>
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </div>
+                    <div>
+                      <div style={{ fontSize: '12.5px', color: 'rgba(255,255,255,0.6)', marginBottom: '4px', fontWeight: '600', letterSpacing: '0.03em' }}>Email</div>
+                      <a href="mailto:elicitoninnovations@gmail.com" style={{ color: '#fff', textDecoration: 'none', fontWeight: '500', fontSize: '15.5px', transition: 'color 0.2s', wordBreak: 'break-all' }} onMouseOver={(e) => e.target.style.color = 'var(--gold)'} onMouseOut={(e) => e.target.style.color = '#fff'}>elicitoninnovations@gmail.com</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="contact-map-side">
