@@ -42,28 +42,28 @@ export default function Navbar() {
       <header id="siteHeader" className={isScrolled ? 'scrolled' : ''}>
         <div className="wrap nav-inner">
           <Link to="/" onClick={(e) => handleLinkClick(e, '/')} className="logo">
-            <img 
-              src="/logo.png" 
-              alt="Eliciton Innovations Logo" 
+            <img
+              src="/logo.png"
+              alt="Eliciton Innovations Logo"
               className={isScrolled ? '' : 'logo-white'}
-              style={{ height: '52px', width: 'auto', objectFit: 'contain', display: 'block', borderRadius: '4px' }} 
+              style={{ height: '52px', width: 'auto', objectFit: 'contain', display: 'block', borderRadius: '4px' }}
             />
           </Link>
           <nav className="links">
-            <NavLink to="/" end onClick={(e) => handleLinkClick(e, '/')}>home</NavLink>
-            <NavLink to="/about" onClick={(e) => handleLinkClick(e, '/about')}>about</NavLink>
-            <NavLink to="/microbiology" onClick={(e) => handleLinkClick(e, '/microbiology')}>microbiology</NavLink>
-            <NavLink to="/diagnostics" onClick={(e) => handleLinkClick(e, '/diagnostics')}>ivd</NavLink>
-            <NavLink to="/research" onClick={(e) => handleLinkClick(e, '/research')}>research</NavLink>
-            <NavLink to="/products" onClick={(e) => handleLinkClick(e, '/products')}>products</NavLink>
-            <NavLink to="/news" onClick={(e) => handleLinkClick(e, '/news')}>news</NavLink>
-            <NavLink to="/contact" className="nav-cta" onClick={(e) => handleLinkClick(e, '/contact')}>contact</NavLink>
+            <NavLink to="/" end onClick={(e) => handleLinkClick(e, '/')}>Home</NavLink>
+            <NavLink to="/about" onClick={(e) => handleLinkClick(e, '/about')}>About</NavLink>
+            <NavLink to="/microbiology" onClick={(e) => handleLinkClick(e, '/microbiology')}>Microbiology</NavLink>
+            <NavLink to="/diagnostics" onClick={(e) => handleLinkClick(e, '/diagnostics')}>IVD</NavLink>
+            <NavLink to="/research" onClick={(e) => handleLinkClick(e, '/research')}>Research</NavLink>
+            <NavLink to="/products" onClick={(e) => handleLinkClick(e, '/products')}>Products</NavLink>
+            <NavLink to="/news" onClick={(e) => handleLinkClick(e, '/news')}>News</NavLink>
+            <NavLink to="/contact" className="nav-cta" onClick={(e) => handleLinkClick(e, '/contact')}>Contact</NavLink>
           </nav>
-          <button 
-            className="menu-btn" 
-            id="menuBtn" 
-            aria-label="Open menu" 
-            aria-expanded={isDrawerOpen} 
+          <button
+            className="menu-btn"
+            id="menuBtn"
+            aria-label="Open menu"
+            aria-expanded={isDrawerOpen}
             onClick={() => setIsDrawerOpen(true)}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -73,15 +73,15 @@ export default function Navbar() {
         </div>
       </header>
 
-      <div 
-        className={`drawer-overlay ${isDrawerOpen ? 'open' : ''}`} 
+      <div
+        className={`drawer-overlay ${isDrawerOpen ? 'open' : ''}`}
         id="drawerOverlay"
         onClick={() => setIsDrawerOpen(false)}
       ></div>
       <div className={`drawer ${isDrawerOpen ? 'open' : ''}`} id="drawer">
-        <button 
-          className="drawer-close" 
-          id="drawerClose" 
+        <button
+          className="drawer-close"
+          id="drawerClose"
           aria-label="Close menu"
           onClick={() => setIsDrawerOpen(false)}
         >
